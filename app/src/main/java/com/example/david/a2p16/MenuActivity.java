@@ -17,8 +17,9 @@ public class MenuActivity extends AppCompatActivity {
 
         setTitle(receivedEmail);
 
-        getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(false);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_name);
+        getSupportActionBar().setHomeButtonEnabled(true); //enables the back button
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(false); //hides the back button
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_name); //back button image
     }
 }
