@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Initializing Views
+        //Initializing View
         //textViewName = (TextView) findViewById(R.id.textViewName);
         //textViewEmail = (TextView) findViewById(R.id.textViewEmail);
         //profileImage = (NetworkImageView) findViewById(R.id.profileImage);
